@@ -1,29 +1,21 @@
-*variaveis:*
+Inicio do programa  
+	ler nome do cliente  
+	ler idade do cliente  
+	ler saldo disponivel do cliente  
+	ler preço do produto  
+	ler quantidade do produto  
 
-nomeCliente  
-idadeCliente  
-saldoDisponivel  
-precoProduto  
-quantidadeProduto  
+Verificação de compra  
 
-*Algoritmo:*
+se a idade do cliente >= 18 e saldo disponivel >= (preço do porduto * quantidade do produto)  
+	informe que a compra foi efetuada  
 
-receber nomeCliente  
-receber idadeCliente  
-receber saldoDisponivel  
-receber precoProduto  
-receber quantidadeProduto  
+se a idade do cliente >= 18 e saldo disponivel < (preço do porduto * quantidade do produto)  
+	informe que a compra está negada por saldo insuficiente  
 
+se a idade do cliente < 18 e saldo disponivel >= (preço do porduto * quantidade do produto)  
+	informe que a compra está negada por idade insuficiente  
 
-se (idadeCliente >= 18 e saldoDisponivel >= (precoProduto * quantidadeProduto)):  
-	escreva(Compra efetuada)
-
-se não, se(idadeCliente >= 18 e saldoDisponivel < (precoProduto * quantidadeProduto)):  
-	escreva(Compra não efetuada: Cliente sem saldo sulficiente)
-
-se não, se(idadeCliente < 18 e saldoDisponivel >= (precoProduto * quantidadeProduto)):  
-	escreva("Compra não efetuada: Cliente menor de idade")
-
-se não (idadeCliente < 18 e saldoDisponivel < (precoProduto * quantidadeProduto)):  
-	escreva("Compra não efetuada: Cliente menor de idade e sem saldo sulficiente")
-
+se a idade do cliente >= 18 e saldo disponivel < (preço do porduto * quantidade do produto)  
+	informe que a compra está negada por idade e saldo insuficiente  
+Fim do programa
