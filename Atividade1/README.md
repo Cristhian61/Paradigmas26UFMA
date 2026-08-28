@@ -1,3 +1,7 @@
+Pseudocódigo referente a atividade 1 da disciplina Paradigmas da programação.  
+Aluno: Nicolas Cristhian Lima Araújo
+  
+  
 Inicio do programa  
 	ler nome do cliente  
 	ler idade do cliente  
